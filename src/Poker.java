@@ -61,6 +61,7 @@ public class Poker {
                         new Poker().play();
                     } else if (answer.equals("N") || answer.equals("n")) {
                         System.out.println("\nSee ya next time!");
+                        break;
                     }
                 }
 
@@ -86,6 +87,7 @@ public class Poker {
                         new Poker().play();
                     } else if (answer.equals("N") || answer.equals("n")) {
                         System.out.println("\nSee ya next time!");
+                        break;
                     }
                 }
 
@@ -111,6 +113,7 @@ public class Poker {
                         new Poker().play();
                     } else if (answer.equals("N") || answer.equals("n")) {
                         System.out.println("\nSee ya next time!");
+                        break;
                     }
                 }
 
@@ -136,6 +139,7 @@ public class Poker {
                         new Poker().play();
                     } else if (answer.equals("N") || answer.equals("n")) {
                         System.out.println("\nSee ya next time!");
+                        break;
                     }
                 }
 
@@ -161,6 +165,7 @@ public class Poker {
                         new Poker().play();
                     } else if (answer.equals("N") || answer.equals("n")) {
                         System.out.println("\nSee ya next time!");
+                        break;
                     }
                 }
 
@@ -186,6 +191,7 @@ public class Poker {
                         new Poker().play();
                     } else if (answer.equals("N") || answer.equals("n")) {
                         System.out.println("\nSee ya next time!");
+                        break;
                     }
                 }
 
@@ -211,6 +217,7 @@ public class Poker {
                         new Poker().play();
                     } else if (answer.equals("N") || answer.equals("n")) {
                         System.out.println("\nSee ya next time!");
+                        break;
                     }
                 }
 
@@ -236,6 +243,7 @@ public class Poker {
                         new Poker().play();
                     } else if (answer.equals("N") || answer.equals("n")) {
                         System.out.println("\nSee ya next time!");
+                        break;
                     }
                 }
 
@@ -261,6 +269,7 @@ public class Poker {
                         new Poker().play();
                     } else if (answer.equals("N") || answer.equals("n")) {
                         System.out.println("\nSee ya next time!");
+                        break;
                     }
                 }
 
@@ -286,6 +295,7 @@ public class Poker {
                         new Poker().play();
                     } else if (answer.equals("N") || answer.equals("n")) {
                         System.out.println("\nSee ya next time!");
+                        break;
                     }
                 }
             }
@@ -383,17 +393,17 @@ public class Poker {
 
 
     public static void main(String[] args) {
-        System.out.println("###############################################################################");
-        System.out.println("#                                                                             #");
-        System.out.println("#   ####### #       ####### ####### #     #       # ####### ####### #     #   #");
-        System.out.println("#   #     # #       #     # #       #   #         # #     # #       #   #     #");
-        System.out.println("#   ######  #       ####### #       ####          # ####### #       ####      #");
-        System.out.println("#   #     # #       #     # #       #   #   #     # #     # #       #   #     #");
-        System.out.println("#   ####### ####### #     # ####### #     # ####### #     # ####### #     #   #");
-        System.out.println("#                                                                             #");
-        System.out.println("#   A human v. CPU rendition of the classic card game Blackjack               #");
-        System.out.println("#                                                                             #");
-        System.out.println("###############################################################################");
+        System.out.println("################################################");
+        System.out.println("#                                              #");
+        System.out.println("#   ####### #######  #    ## ####### #######   #");
+        System.out.println("#   #     # #     #  #   #   #       #     #   #");
+        System.out.println("#   ######  #     #  ####    ####    #####     #");
+        System.out.println("#   #       #     #  #   #   #       #   #     #");
+        System.out.println("#   #       #######  #    ## ####### #     #   #");
+        System.out.println("#                                              #");
+        System.out.println("#   A Java recreation of the 5-card stud Poker #");
+        System.out.println("#                                              #");
+        System.out.println("################################################");
 
         Scanner in = new Scanner(System.in);
         System.out.print("\nHow many chips will you buy in for? ");
